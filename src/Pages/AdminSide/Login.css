@@ -1,0 +1,106 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  
+  }
+  
+  .login-box {
+    border: 1px solid #959595;
+    padding: 50px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .login-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .login-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-items: center;
+  }
+  
+  .login-box label {
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    letter-spacing: 0.9px;
+    text-align: center; /* Center align label text */
+  }
+  
+  .login-box input {
+    padding: 12px;
+    margin-bottom: 15px;
+    width: 70%; /* Set width for the input */
+    border-radius: 8px;
+    border: none;
+    border: 1px solid #ed6b26;
+    border-color: #ccc;
+    margin: 0 auto; /* Center align input */
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .login-box button {
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    width: 30%;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #ed6b26;
+    border-radius: 12px;
+  }
+  
+  .login-box button:hover {
+    background-color: #ed6b26;
+    border-color: #fff;
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+  }
+ 
+  @media screen and (min-width: 100px) and (max-width: 426px){
+    .login-container{
+        height: 100vh;
+    }
+    .login-box{
+        padding: 20px;
+        border: none;
+        border: 0px ;
+    }
+    .login-box h2{
+        font-size: 20px;
+    }
+    .login-box label{
+        margin-bottom: 0px;
+    }
+
+    .login-box input{
+        width: 90%;
+        margin-bottom: 0px;
+       
+    }
+   
+    .login-box button{
+        width: 50%;
+    }
+  }
+  

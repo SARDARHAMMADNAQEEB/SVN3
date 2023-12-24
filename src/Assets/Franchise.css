@@ -1,0 +1,107 @@
+.main-con-fran{
+    width: 100%;
+    display: grid;
+    background-color: #fff;
+    color: black;
+}
+.fran-con2{
+    background-color: rgb(17,17,17);
+    color: #fff;
+    display: grid;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.row1-career-fran{
+    width: 90%;
+    display: flex;
+    /* background-color: red; */
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row2-career-fran{
+    width:90%;
+    display: flex;
+    background-color: transparent;
+    margin: auto;
+    height: fit-content;
+    margin-top: -3%;
+    /* background-color: yellow; */
+}
+.col-1-fran, .col-2-fran, .col-3-fran{
+    width: 280px;
+    background-image: url('/public/culture-frame.svg');
+    height: 280px;
+    background-repeat: no-repeat;
+  
+    /* background-color: blue; */
+    margin: auto;
+}
+.col-1-fran h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    position: relative;
+    margin: auto;
+    top: 40%;
+    width: 60%;
+}
+.col-2-fran h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    position: relative;
+    margin: auto;
+    top: 40%;
+    width: 60%;
+}
+.col-3-fran h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    position: relative;
+    margin: auto;
+    top: 40%;
+    width: 60%;
+}
+.r2-col-1-fran, .r2-col-2-fran, .r2-col-3-fran{
+    width: 280px;
+    
+    margin: auto;
+    /* background-color: red; */
+    margin-bottom: 20px;
+    /* background-color: aqua; */
+    margin-top: 5%;
+}
+.r2-col-1-fran p{
+    text-align: center;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 15px;
+    margin: auto;
+    /* background-color: blue; */
+    /* margin-top: 8%; */
+    font-weight: 350;
+    /* background-color: blue; */
+}
+.r2-col-2-fran p{
+    text-align: center;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 15px;
+    margin: auto;
+    /* background-color: blue; */
+    /* margin-top: 8%; */
+    font-weight: 350;
+    /* background-color: red; */
+}
+.r2-col-3-fran p{
+    text-align: center;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 15px;
+    margin: auto;
+    /* background-color: blue; */
+    /* margin-top: 8%; */
+    font-weight: 350;
+    /* background-color: yellow; */
+}
+

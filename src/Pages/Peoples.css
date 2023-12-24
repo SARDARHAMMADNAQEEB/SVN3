@@ -1,0 +1,833 @@
+#brokersIndex{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    display: block;
+
+}
+#advance-plugin{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    display: block;
+}
+.top-filters{
+    background-color: #F9F9F9;
+    border: 1px solid #EBEBEB;
+    height: 68px;
+    line-height: 68px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    padding: 0px 12px;
+    white-space: nowrap;
+
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    margin: 0;
+    display: block;
+}
+.searchbox{
+    border-color: #ed6b26;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 33px;
+    width: 490px;
+    border: 1px solid #ed6b26;
+    background-color: #fff;
+    display: inline-block;
+    padding: 0px;
+    position: relative;
+    border-radius: 2px;
+    margin: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+   
+}
+#searchbox{
+    height: 25px;
+    padding: 4px 8px;
+    width: 436px;
+    font-size: 13px;
+    border: none;
+    color: #999;
+   font-family: 'Montserrat' sans-serif;
+    display: block;
+    margin-top: 4px;
+    
+}
+#searchbox:focus{
+    outline: none;
+    color: #4f4e4e;
+}
+#searchbttn{
+    background-color: #ed6b26;
+    cursor: pointer;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    width: 39px;
+    height: 32px;
+    text-align: center;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    margin-right: -1px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    /* vertical-align: baseline; */
+    display: block;
+   
+}
+.img-1-search{
+
+    /* margin-top: 11px; */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+ 
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    cursor: pointer;
+    text-align: center;
+    line-height: 68px;
+    white-space: nowrap;
+display: block;
+margin-top: 6px;
+width: 15px;
+margin-left: auto;
+margin-right: auto;
+   
+}
+.searchingicon{
+    margin-top: 0px;
+    display: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    cursor: pointer;
+    line-height: 68px;
+    white-space: nowrap;
+}
+.main-people{
+        box-sizing: border-box;
+        display: block;
+
+}
+.people-container{
+        padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+        max-width: 1140px;
+            width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+        box-sizing: border-box;
+        display: block;
+}
+.People-heading{
+        font-size: 3.1rem;
+            margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height: 1.2;
+        box-sizing: border-box;
+            display: block;
+                /* margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    text-align: left;
+}
+.divider-filter{
+    vertical-align: middle;
+    width: 1px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    line-height: 68px;
+    white-space: nowrap;
+    color: #4f4e4e;
+    margin-left: 40px;
+    margin-top: -5px;
+}
+.searchPageInfo{
+    color: #212121;
+    font-size: 12px;
+    margin-left:20px;
+  
+    /* margin: 0; */
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: 'Montserrat' sans-serif;
+    vertical-align: baseline;
+    white-space: nowrap;
+    line-height: 68px;
+}
+#range, #count{
+    font-weight: 600;
+}
+.prevNextButtons{
+    margin-left: 30px;
+    /* margin: 0; */
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+#prevButton{
+    background: transparent url('https://assets.buildout.com/assets/prev-page-disabled-4820971b123e420d8b9bd0b6c119bd83e296ea3324d5e1870dd5d49e512889c8.png');
+    cursor: default;
+    vertical-align: middle;
+    display: inline-block;
+    width: 37px;
+    height: 30px;
+
+}
+#nextButton{
+    margin-left: -1px;
+    background: transparent url('https://assets.buildout.com/assets/next-page-4a06be1def07e8fc4d4f34eb6d551c280e742f8266c44b64d62fda069ac2ce13.png');
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+    width: 37px;
+    height: 30px;
+}
+.layout-people{
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+}
+.layout{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    display: flex;
+    box-sizing: border-box;
+    text-indent: initial;
+    text-align: left;
+
+}
+tbody{
+    display: table-row-group;
+    text-indent: initial;
+    text-align: left;
+    width: 100%;
+
+}
+tr{
+    display: table-row;
+    text-align: left;
+    width: 100%;
+}
+.sideFilters{
+    border: 1px solid #EBEBEB;
+    border-top: none;
+    width: 25%;
+    height: auto;
+    vertical-align: top;
+    text-align: left;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    display: table-cell;
+
+}
+.filterSection{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    display: block;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-indent: initial;
+    width: 100%;
+}
+.sectionHeader{
+    cursor: default;
+    padding: 0px 10px;
+    border-top: 1px solid #EBEBEB;
+    background-color: #F5F5F5;
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+    color: #464646;
+    font-size: 12px;
+    position: relative;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    margin: 0;
+    font-family: 'Montserrat' sans-serif;
+    display: block;
+    letter-spacing: 1px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.sectionLinks{
+    float: right;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    vertical-align: baseline;
+    cursor: default;
+    line-height: 36px;
+    color: #464646;
+    text-align: left;
+
+}
+.All , .None{
+    text-decoration: none;
+    color: #464646;
+    cursor: pointer;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.sectionBody{
+    padding: 8px;
+    display: block;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-indent: initial;
+}
+.sectionBody div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    display: block;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-indent: initial;
+}
+.name-filters,#Charter, #Corporate,#CorporateSales, #GolfResorts, #Hospitality, #Industrial,#Land,#Marinas,#MedicalOffice,#MobileHomes,#Multifamily{
+    font-family: 'Montserrat' sans-serif;
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+    border-collapse: separate;
+    border-spacing: 0;
+
+}
+label{
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #333;
+    /* margin: 0; */
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: 'Montserrat' sans-serif;
+    cursor: default;
+    text-align: left;
+    margin-left: 1px;
+}
+.content-people{
+    vertical-align: top;
+    text-align: left;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    display: table-cell;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-indent: initial;
+    width: 65%;
+
+}
+.searchResults{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: 'Montserrat' sans-serif;
+    display: block;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-indent: initial;
+    /* background-color: blue; */
+    width: 100%;
+
+}
+#brokerlist{
+    width: 100%;
+    margin-left: 60px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    /* margin: 0; */
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: 'Montserrat' sans-serif;
+    vertical-align: baseline;
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    text-align: left;
+    font-size: 12px;
+    /* background-color: yellow; */
+}
+#brokerlist tbody{
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    display: table-row-group;
+    text-align: left;
+    
+    width: 100%;
+}
+.tr{
+    /* border: 0; */
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: 'Montserrat' sans-serif;
+    vertical-align: baseline;
+    margin: 0;
+    display: table-row;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-indent: initial;
+    text-align: left;
+    width: 100%;
+    border-bottom: 1px solid #d6d6d6;
+}
+.thumbnail{
+    width: 50px;
+    border-left: 1px solid #fff;
+    padding: 10px 5px 15px;
+    border-bottom: 1px solid #d6d6d6;
+    border-top: 1px solid transparent;
+    vertical-align: top;
+    text-align: left;
+    font-weight: normal;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    display: table-cell;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-indent: initial;
+
+}
+.thumbnail-div{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    
+    border-collapse: collapse;
+    border-spacing: 0;
+
+}
+.thumbnail-div::before{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: url('/public/thumbnail.png');
+    line-height: 55px;
+    text-align: center;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-indent: initial;
+
+}
+.thumbnail-img{
+    vertical-align: middle;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    line-height: 55px;
+    text-align: center;
+    border-collapse: collapse;
+}
+.user-info{
+    padding: 10px 5px 15px;
+    border-bottom: 1px solid #a0a0a0;
+    border-top: 1px solid transparent;
+    vertical-align: top;
+    text-align: left;
+    font-weight: normal;
+    border: 0;
+    outline: 0;
+    margin: 0;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: 'Montserrat' sans-serif;
+    display: table-cell;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-indent: initial;
+    width: 50%;
+    /* background-color: yellow; */
+
+}
+.name{
+    color: #434343;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: left;
+    font-family: 'Montserrat' sans-serif;
+    display: block;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-indent: initial;
+
+}
+.name a{
+    color: #434343;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    cursor: pointer;
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-indent: initial;
+}
+.underline{
+    font-size: 13px;
+    font-weight: 400;
+    color: #434343;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-style: inherit;
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.info{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 11px;
+    border-top: 1px dotted #bbb;
+    padding-top: 3px;
+    margin-top: 3px;
+    margin: 0;
+    padding: 0;
+ 
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    text-align: left;
+    border-collapse: collapse;
+}
+.CompanyInfo{
+    border-right: 1px solid #fff;
+    padding: 10px 5px 15px;
+    /* border-bottom: 1px solid #d6d6d6; */
+    border-top: 1px solid transparent;
+    vertical-align: top;
+    text-align: left;
+    font-weight: normal;
+    /* margin: 0; */
+    outline: 0;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    display: table-cell;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-indent: initial;
+    /* background-color: red; */
+    float: right;
+  width: 100%;
+  margin-left: 160px;
+}
+.div-1-company-info{
+    position: relative;
+    padding-left: 15px;
+    /* margin: 0; */
+    /* padding: 0; */
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: 'Montserrat' sans-serif;
+    /* vertical-align: baseline; */
+    display: block;
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+}
+.div-1-company-info::before{
+    position: absolute;
+    left: 0px;
+    top: -3px;
+    content: url('/public/location-icon.png');
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: 'Montserrat' sans-serif;
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-indent: initial;
+    
+
+}
+.company-name{
+    color: #444444;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    /* margin-left: 20px; */
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: 'Montserrat' sans-serif;
+
+    vertical-align: baseline;
+    text-align: left;
+    display: block;
+    border-collapse: collapse;
+}
+.comapny-name span{
+    font-weight: 600;
+    /* margin: 0; */
+        padding: 0;
+    border: 0;
+    outline: 0;
+    font-style: inherit;
+    font-size: 100%;
+    text-align: left;
+    border-spacing: 0;
+    text-indent: initial;
+    border-collapse: collapse;
+    
+}
+.company-address{
+    color: #444444;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: 'Montserrat' sans-serif;
+    vertical-align: baseline;
+    display: block;
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-indent: initial;
+
+}
+.tr:hover{
+    background-color: #f0f0f0b3;
+   
+}
+@media screen and (min-width: 100px) and (max-width: 767px){
+    .sideFilters{
+        display: none;
+    }
+    .people-container{
+        padding-top: 4rem !important;
+        padding-bottom: 4rem !important;
+        width: 100%;
+    }
+    .People-heading{
+        font-size: calc(1.375rem + 1.5vw);
+    }
+    .searchbox{
+        width: 50%;
+        line-height: 68px;
+        white-space: nowrap;
+
+    }
+    #searchbox{
+        width: calc(100% - 50px);
+    }
+    .searchPageInfo{
+        display: none;
+    }
+    .prevNextButtons{
+        margin-left: 20px;
+    }
+    .layout-people{
+        width: 100%;
+    }
+    .layout{
+        width: 100%;
+    }
+    tbody, tr{
+        width: 100px;
+    }
+    .content-people{
+        width: 100%;
+    }
+    .searchResults{
+        width: 100%;
+    }
+    #brokerlist{
+        width: 100%;
+        margin-left: 0px;
+    }
+    tr{
+        width: 100%;
+    }
+    .user-info{
+        width: 100%;
+        margin: 0px;
+        
+    }
+    .CompanyInfo{
+        width: 100%;
+        float: right;
+        text-align: right;
+     
+    }
+    .CompanyInfo::before{
+        top: 0%;
+    }
+}

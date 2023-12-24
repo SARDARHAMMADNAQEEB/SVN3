@@ -1,0 +1,102 @@
+.Navbar{
+    background-color: rgb(17,17,17);
+    color: white;
+    padding: 25px 0px;
+  
+}
+#nav{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 0px 16px;
+
+}
+.drop-menu{
+    color: #fff;
+    letter-spacing: 2px;
+}
+.drop-menu:hover{
+    background-color: #313131e6;
+    color: #fff;
+}
+#nav1{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 0px 15px;
+    
+}
+#nav1:hover{
+    color: #b0b6bb;
+}
+#nav:hover{
+    color: #6c757d;
+}
+#main-nav{
+    padding: 0px 0px;
+ /* background-color: green; */
+    margin-left: 50px;
+   
+}
+#nav-dropdown{
+    color: #fff;
+    background-color: rgb(17,17,17);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight:normal;
+    
+}
+#d-item{
+    background-color: rgb(17,17,17);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight:normal;
+
+}
+#d-item:hover{
+    background-color: #313131e6;
+
+}
+.navbar-toggler-icon{
+    color: #fff;
+
+    --bs-navbar-toggler-icon-bg:url('/public/menu.png');
+
+}
+.navbar-toggler{
+    border: 2px solid #fff;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1400px){
+    #nav{
+        padding: 0px 6px;
+    }
+    #nav1{
+        padding: 0px 6px;
+    }
+    #main-nav{
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width:100px) and (max-width:991px){
+    #main-nav{
+        margin-left: 0px;
+        padding: 10px 0px;
+    }
+    #nav{
+        padding: 10px 0px;
+    }
+    span{
+        display: none;
+    }
+    #nav1{
+        padding: 10px 0px;
+    }
+}

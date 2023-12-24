@@ -1,0 +1,237 @@
+.main-con-investors{
+    display: grid;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 50px;
+}
+.div-1{
+    text-align: center;
+    width: 100%;
+
+}
+.div-1 h1{
+    font-weight: bold;
+    font-size: 40px
+}
+.div-1 p{
+    font-family: 'Montserrat' sans-serif;
+    width: 70%;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.div-3{
+    display: flex;
+    width: 100%;
+    margin: 100px 0px;
+
+}
+.div-3 h1{
+    font-weight: bold;
+    font-size: 40px
+}
+.inv-btn{
+    width: 20%;
+    margin: auto;
+    font-family: 'Montserrat' sans-serif;
+    letter-spacing: 3px;
+    border-radius: 0%;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.header{
+    display: none;
+}
+.link-list {
+  list-style: none; 
+  padding: 0; 
+}
+
+.link-list li {
+  margin: 0; 
+}
+.links{
+    width: 35%;
+  
+}
+ul li{
+    text-align: right;
+   
+}
+li{
+    padding: 5px 0px;
+    width: 60%;
+    
+    float: right;
+}
+li a{
+    text-decoration: none;
+    font-family: 'Montserrat' sans-serif;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 500;
+   cursor: pointer;
+    
+    padding: 5px 10px;
+    
+}
+.link-list li a.active {
+  color: #fff;
+    background-color: #ed6b26; /* Highlighted link color for active link */
+}
+
+.description{
+    width: 65%;
+}
+.description p{
+    width: 75%;
+    text-align: left;
+    font-family: 'Montserrat' sans-serif;
+    letter-spacing: 1px;
+}
+.description h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.divider {
+  border-left: 1px solid rgb(17, 17, 17); /* Create a vertical line */
+  height: 100%;
+  margin: 0 20px; /* Adjust the margin as needed */
+}
+.div-4{
+    display: grid;
+    background-color: #fff;
+    color: black;
+    margin-bottom: 70px;
+    width: 100%;
+}
+.div-4 h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.div-4-btn1{
+    width: 20%;
+    border-radius: 0%;
+    font-family: 'Montserrat' sans-serif;
+    letter-spacing: 3px;
+    font-weight: 700;
+   
+   
+    font-size: 17px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+@media screen and  (max-width: 768px){
+.div-1 h1{
+    font-size: 30px;
+}
+.div-4 h1{
+    font-size: 30px;
+}
+.div-4-btn1{
+    width: 60%;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.div-1 p{
+    width: 80%;
+    text-align: center;
+    color: black;
+}
+
+ .div-3{
+    display: grid;
+ }
+    .link-list {
+    display: none; /* Hide the link list by default */
+  }
+
+  .links {
+    text-align: center; /* Center-align the dropdown button */
+  }
+
+  .dropdown-button.active {
+    background-color: #ed6b26; /* Highlighted color for active button */
+  }
+  .links{
+    display: none;
+  }
+  .divider{
+    display: none;
+  }
+
+    .header {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+   
+  }
+
+
+  .dropdown-button {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #ed6b26;
+    color: white;
+    border: none;
+    transition: background-color 0.3s; /* Add a smooth background color transition */
+    font-family: 'Montserrat' sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+
+  .dropdown-button.active {
+    background-color: #ed6b26; /* Highlighted color for active button */
+  }
+
+  .link-list {
+    display: grid;
+    gap: 10px;
+    text-align: center;
+
+  }
+  .link-list a{
+    text-decoration: none;
+    font-family: 'Montserrat' sans-serif;
+    color: black;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .description {
+    width: 100%;
+    display: grid;
+    margin-top: 50px;
+  }
+  .description h3{
+    font-size: 25px;
+    text-align: center;
+  }
+  .description p{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+
+  /* Remove divider */
+  /* .description {
+    display: none;
+  } */
+
+}
+
+
+

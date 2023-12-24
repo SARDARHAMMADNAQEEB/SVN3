@@ -1,0 +1,287 @@
+.main-con-culture{
+    width: 100%;
+    height: max-content;
+    background-color: #fff;
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.content-1{
+    display: grid;
+    width: 100%;
+}
+.content-1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.content-1 p{
+    width: 70%;
+    font-family: 'Montserrat' sans-serif;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 1px;
+    font-weight: 350;
+    font-size: 16px;
+}
+/* .container-cul{
+    display: flex;
+    width: 90%;
+  
+    margin: auto;
+    margin-top: 100px;
+}
+.sub-con-1,.sub-con-3{
+    width: 30%;
+    height: 300px;
+    background-image: url('/public/culture-frame.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+margin: auto;
+}
+.sub-con-2{
+    width: 30%;
+    height: 300px;
+    background-image: url('/public/culture-frame.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    background-size: contain;
+    
+}
+.inner-img-cul{
+    position: relative;
+    width: 55%;
+    border-radius: 50%;
+    top: 13%;
+    left: 22%;
+    /* object-fit:cover; */
+
+    
+/* }
+.horizontal-line {
+    width: 30%;
+    height: 1px; 
+    background-color: black; 
+    margin-top: -5%; 
+    position: absolute;
+    margin-left: 15%;
+    
+}  */
+
+.container-cul {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  .sub-con-1,
+  .sub-con-3,
+  .sub-con-2 {
+    width: 30%;
+    height: 300px;
+    background-image: url('/public/culture-frame.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: auto;
+    position: relative;
+  }
+  
+  .inner-img-cul {
+    position: absolute;
+    width: 55%;
+    border-radius: 50%;
+    top: 13%;
+    left: 22%;
+  }
+  
+  .horizontal-line1 {
+    width: 80%;
+    height: 2px; /* Adjust the line thickness as needed */
+    background-color: black; /* Adjust the line color as needed */
+    margin-top: 35%;
+    position: absolute;
+    left: 50%;
+    
+    transform: translateY(-50%);
+  }
+  .horizontal-line2 {
+    width: 91%;
+    height: 2px; /* Adjust the line thickness as needed */
+    background-color: black; /* Adjust the line color as needed */
+    margin-top: 35%;
+    position: absolute;
+    left: 19%;
+    
+    transform: translateY(-50%);
+  }
+  .horizontal-line3 {
+    width: 60%;
+    height: 2px; /* Adjust the line thickness as needed */
+    background-color: black; /* Adjust the line color as needed */
+    margin-top: 35%;
+    position: absolute;
+    left: -1%;
+    
+    transform: translateY(-50%);
+  }
+  
+  .start-circle,
+  .end-circle {
+    position: absolute;
+    width: 25px; /* Adjust the circle size as needed */
+    height: 25px;
+    background-color: transparent; /* Adjust the circle color as needed */
+    border-radius: 50%;
+    border: 1px solid black;
+    z-index: 2;
+  }
+  
+  .start-circle {
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  
+  .end-circle {
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+  }
+
+
+
+
+  .vertical-line {
+    width: 1px; /* Adjust the line thickness as needed */
+    height: 300px; /* Adjust the line height as needed */
+    background-color: black; /* Adjust the line color as needed */
+    margin: auto;
+    position: relative;
+    top: -53%;
+}
+.core-content{
+    display: grid;
+    width: 100%;
+   /* background-color: red; */
+    /* position: relative; */
+    margin-top: -11%;
+    height: auto;
+}
+.core-content h1{
+    
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    /* background-color: aqua; */
+    height: fit-content;
+}
+.vertical-line2 {
+ 
+        width: 1px; /* Adjust the width as needed */
+        height: 839px; /* Set the height to cover the full viewport height */
+        background-color: black; /* Set the line color */
+        position: absolute;
+        left: 50%; /* Position it in the horizontal center of the page */
+        transform: translateX(-50%); 
+        margin-top: 50px;
+}
+.core-r1{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.r1-sec-1{
+    width: 50%;
+    display: flex;
+}
+.r1-sec-2{
+    width: 50%;
+    display: flex;
+    margin-left: 20px;
+}
+.r1-sec-2 h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.r1-sec-2 p{
+    font-family: 'Montserrat' sans-serif;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    width: 70%;
+}
+.core-r2{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.r2-sec-1{
+    width: 50%;
+    display: flex;
+    /* background-color: red; */
+  
+}
+.r2-sec-2{
+    width: 50%;
+    display: flex;
+}
+.r2-sec-1 h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* background-color: yellow; */
+    width: fit-content;
+}
+.r2-sec-1 p{
+    font-family: 'Montserrat' sans-serif;
+    /* margin-left: 20px; */
+    letter-spacing: 1px;
+    font-size: 17px;
+    text-align: right;
+   
+    /* float: right; */
+    width: 100%;
+    /* background-color: gray; */
+}
+.inner-r2{
+    display: flex;
+    
+    
+    width: 100%;
+ 
+    /* background-color: black; */
+}
+.start-circle-r1{
+
+    position: absolute;
+    width: 25px; /* Adjust the circle size as needed */
+    height: 25px;
+    background-color: transparent; /* Adjust the circle color as needed */
+    border-radius: 50%;
+    border: 1px solid black;
+    z-index: 2;
+    left: 49.2%;
+   margin-top: 10px;
+}
+.hori-line{
+    width: 25px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    left: 49.2%;
+    margin-top: 18px;
+}

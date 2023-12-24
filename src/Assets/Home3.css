@@ -1,0 +1,141 @@
+.main-con-hom3{
+    display: grid;
+    width: 100%;
+    margin-top: 50px;
+}
+.hom3-con1{
+    display: grid;
+    width: 100%;
+    /* background-color: red; */
+}
+.h3con1-head{
+    font-size: 40px;
+    width: 50%;
+    /* background-color: yellow; */
+    text-align: center;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.h3-btn{
+    width: 17%;
+    font-family: 'Montserrat' , sans-serif;
+    /* background-color: yellow; */
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 17px;
+    margin: auto;
+    margin-top: 40px;
+}
+.h3-img1{
+    /* background-color: red; */
+    width: 13%;
+    margin: auto;
+    margin-top: 40px;
+}
+.hom3-con2{
+    display: grid;
+    width: 100%;
+    margin-top: 45px;
+}
+.h3con2-head{
+    font-size: 45px;
+    width: 50%;
+    /* background-color: yellow; */
+    text-align: center;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hom3-con2-1{
+    display: flex;
+    width: 100%;
+}
+.row{
+    display: flex;
+    /* width: fit-content; */
+    width: 90%;
+    height: auto;
+}
+.col1{
+    background-image: url(/public/f1img1.webp);
+    background-size: cover;
+    width: 30%;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+/* .featured-property {
+    flex: 1;
+    margin: 10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .property-image {
+    position: relative;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .property-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .property-details h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .property-details p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .property-details span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+   */
+
+
+@media screen and (min-width: 640px) and (max-width: 1024px){
+  .h3con1-head{
+    font-size: 35px;
+    width: 70%;
+   
+}
+.h3-btn{
+  width: 45%;
+}
+.h3con2-head{
+  font-size: 40px;
+  width: 70%;
+  
+}
+}
+@media screen and (min-width:100px) and (max-width: 640px){
+  .h3con1-head{
+    font-size: 25px;
+    width: 100%;
+   
+}
+.h3-btn{
+  width: 70%;
+  font-size: 14px;
+}
+.h3con2-head{
+  font-size: 30px;
+  width: 100%;
+  
+}
+}
+

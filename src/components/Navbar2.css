@@ -1,0 +1,23 @@
+#nav-dropdown2{
+    color: #fff;
+    background-color: rgb(17,17,17);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight:700;
+    line-height: 1.5;
+}
+#d-item2{
+    background-color: rgb(17,17,17);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight:normal;
+}
+#d-item2:hover{
+    background-color: #313131e6;
+}
+.dropdown-menu{
+    min-width: 100px;
+}

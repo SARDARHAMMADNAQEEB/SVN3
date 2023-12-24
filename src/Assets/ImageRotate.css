@@ -1,0 +1,373 @@
+.image-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: rgb(17, 17, 17);
+    
+}
+  
+  .rotating-image {
+    width: 1000px; /* Adjust the size as needed */
+    transition: transform 0.5s ease; /* Transition for smooth rotation */
+    /* margin-top: -200px;
+margin-left: 9%; */
+    margin: auto;
+ 
+}
+  
+  .rotating-image.rotate {
+    animation: rotate 5s linear infinite; /* Apply a continuous rotation */
+  }
+  
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .orbit_arrow{
+    width: 35px;
+    
+    margin: auto;
+    margin-top: -200px;
+    transform: translate(0%, -50%);
+    transition: opacity 0.5s ease;
+    opacity: 1;
+  }
+  .orbit_arrow.visible {
+    opacity: 1; /* Visible when the mouse hovers over the image */
+  }
+  .orbit{
+    display: grid;
+  }
+  .orbit-text{
+    display: grid;
+    width: 100%;
+    margin: auto;
+    margin-top: -300px;
+  }
+  h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-size: 42px;
+    /* background-color: red; */
+  }
+  .span1{
+    color: #f36c32;
+  }
+  .span2{
+    color: #1d4d95;
+  }
+  .image-text {
+    /* position: absolute; */
+    width: 40%;
+    margin-top: -510px;
+    margin-left: 50%;
+    height: fit-content;
+    /* background-color: green; */
+    transform: translate(-50%, -50%);
+    opacity: 1; /* Initially hidden */
+    transition: opacity 0.5s ease; /* Transition for smooth fade-in */
+  }
+  .image-text.visible {
+    opacity: 1; /* Visible when the mouse hovers over the image */
+  }
+.line{
+    width: 25%;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.image-text p{
+    width: 80%;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: auto;
+    margin-top: 15px;
+    
+}
+.btn_prop{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 600;
+    justify-items: center;
+    margin-top: 35px;
+    margin-left: 24%;
+}
+.Svn-diff{
+  color: #fff;
+  font-weight: 500;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+.play-main h2{
+  color: #fff;
+text-transform: uppercase;
+ text-align: center;
+ font-family: 'Montserrat' , sans-serif;
+ font-size: 22px;
+ /* font-weight: 600; */
+ letter-spacing: 2px;
+}
+.play-main{
+  margin-top: 0%;
+
+}
+.play-con{
+  width:100%;
+  /* background-color: blue; */
+  margin-top: 50px;
+}
+.play-btn{
+  width: 8%;
+  /* background-color: red; */
+  margin-left: 46%;
+ 
+}
+.connector-line {
+  width: 1px; /* Adjust the width as needed */
+  height: 3.5vh; /* Set the height to cover the full viewport height */
+  background-color: #fff; /* Set the line color */
+  position: absolute;
+  left: 50%; /* Position it in the horizontal center of the page */
+  transform: translateX(-50%); /* Center it exactly in the middle */
+}
+.asset3{
+  /* background-color: blue; */
+  margin-top: -43px;
+}
+.asset3-img{
+  /* background-color: red; */
+  width: 6%;
+  margin-left: 47%;
+  
+}
+/* @media screen and (min-width:1400px) and (max-width: 2600px){
+  .connector-line{
+    height: 46vh;
+  }
+} */
+@media screen and (min-width: 1024px) and (max-width: 1300px){
+  .rotating-image{
+    width: 700px;
+  }
+  .image-text{
+  margin-top: -350px;
+}
+h1{
+  font-size: 35px;
+}
+.image-text p{
+  font-size: 14px;
+}
+.btn_prop{
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin-left: 26%;
+  margin-top: 32px;
+}
+.orbit_arrow{
+  width: 25px;
+  margin-top: -105px;
+}
+.play-main{
+  margin-top: -40px;
+}
+.Svn-diff{
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+.play-main h2{
+  font-size: 20px;
+}
+.image-container{
+  /* height: 200vh; */
+  height: auto;
+}
+.play-con{
+  margin-top: 30px;
+}
+.connector-line{
+  height: 9vh;
+}
+.asset3{
+  margin-top: -35px;
+}
+}
+@media screen and (min-width: 700px) and (max-width: 1024px){
+  .rotating-image{
+    width: 600px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  .image-text{
+    margin-top: -290px;
+  }
+  .image-text p{
+    font-size: 12px;
+    width: 90%;
+  }
+  .btn_prop{
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin: auto;
+    margin-left: 26%;
+    margin-top: 20px;
+  }
+  .orbit_arrow{
+    width: 20px;
+    margin-top: -80px;
+  }
+  .span1, .span2{
+    display:initial;
+  }
+  .line{
+    margin-top: 7%;
+  }
+.play-main{
+  margin-top: -40px;
+}
+.Svn-diff{
+  font-size: 35px;
+}
+.play-main h2{
+  font-size: 20px;
+}
+.play-con{
+  margin-top: 30px;
+}
+.asset3{
+  /* margin-top: 152px; */
+  margin-top: -30px;
+}
+.connector-line{
+  height: 9vh;
+}
+.image-container{
+  height: auto;
+}
+}
+@media screen and (min-width:456px) and (max-width: 700px){
+  .rotating-image{
+    width: 450px;
+  }
+  .rotating-image.rotate{
+    animation: none;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .image-text{
+    margin-top: -220px;
+    width: 50%;
+  }
+  .image-text p{
+   
+    display: none;
+  }
+  .span1, .span2{
+    display: initial;
+  }
+  .line{
+    display: none;
+  }
+  .orbit_arrow{
+    width: 20px;
+    margin-top: -180px;
+  }
+  .btn_prop{
+    display: none;
+  }
+  .play-btn{
+    width: 15%;
+    margin-left: 43%;
+  }
+  .asset3-img{
+    width: 11%;
+    margin-left: 44.5%;
+    margin-top: 10px;
+  }
+  .connector-line{
+    height: 8vh;
+    left: 50%;
+  }
+  .Svn-diff{
+    font-size: 30px;
+  }
+  .play-main{
+    margin-top: 20px;
+  }
+  .play-main h2{
+    font-size: 16px;
+  }
+
+}
+@media screen and (min-width: 100px) and (max-width: 456px){
+  .rotating-image{
+    width: 300px;
+  }
+  .rotating-image.rotate{
+    animation: none;
+  }
+  .line{
+    display: none;
+  }
+  .btn_prop{
+    display: none;
+  }
+  .image-text p{
+   display: none; 
+  }
+  .orbit_arrow{
+    width: 15px;
+    margin-top: -20%;
+  }
+  .span1,.span2{
+    display: initial;
+  }
+  .image-text h1{
+    font-size: 15px;
+  }
+  .image-text{
+    margin-top: -150px;
+    width: 50%;
+  }
+  .image-container{
+    /* height: 110vh; */
+    height: auto;
+  }
+  .play-btn{
+    width: 20%;
+    margin-left: 40%;
+  }
+  .asset3-img{
+    width: 18%;
+    margin-left: 41%;
+    margin-top: 10px;
+  }
+  .connector-line{
+    height: 8vh;
+    left: 50%;
+  }
+  .Svn-diff{
+    font-size: 27px;
+  }
+  .play-main{
+    margin-top: 20px;
+  }
+  .play-main h2{
+    font-size: 15px;
+  }
+}

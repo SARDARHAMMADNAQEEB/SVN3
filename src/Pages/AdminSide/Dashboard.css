@@ -1,0 +1,151 @@
+/* Dashboard.css */
+.dashboard-main{
+    /* background-color: #f7f7f7; */
+    height: 100%;
+    width: 100%;
+}
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .user-info {
+    margin-right: auto;
+  }
+  
+  .user-info span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+   
+  }
+  
+  .header-buttons button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    background-color: #ed6b26;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .header-buttons button:hover {
+    background-color: #333;
+    color: #ed6b26;
+    /* border-color: #ed6b26; */
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+  }
+  
+  .dashboard-content {
+    padding: 20px;
+    width: 50%;
+    
+  }
+  .dashboard-content h2{
+   
+  }
+  .side-panel{
+    display: grid;
+    text-align: left;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+.side-panel h3{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    width: 95.5%;
+}
+.side-panel ul{
+    list-style: none;
+    text-align: left;
+    /* background-color: red; */
+    float: left;
+    width: 100%;
+    margin: 0;
+    margin-left: -32px;
+}
+.side-panel li{
+    text-align: left;
+    float: left;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding: 10px 10px;
+    letter-spacing: 0.14rem;
+    font-weight: 500;
+    width: 100%;
+
+}
+.side-panel li:hover{
+    color: #ed6b26;
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+.even{
+    background-color: #333333a3;
+
+}
+.odd{
+    background-color: #333333df;
+}
+  
+  /* Add more styles for your dashboard content as needed */
+  
+  @media screen and (max-width: 768px) {
+    .dashboard-content {
+      width: 80%; /* Adjust the width for smaller screens */
+      margin: 0 auto; /* Center the content */
+    }
+  
+    .side-panel {
+      margin-left: 0; /* Adjust margin for smaller screens */
+    }
+  
+    .side-panel h3 {
+      width: 100%; /* Adjust width for smaller screens */
+    }
+  
+    .side-panel ul {
+      margin-left: 0; /* Adjust margin for smaller screens */
+    width: 100%;
+
+    padding-left: 0;
+    }
+    .side-panel ul li{
+ 
+      width: 100%;
+      margin-left:0 ;
+      list-style: none;
+      
+    }
+    .header-buttons{
+      display: flex;
+    }
+    .header-buttons button {
+      margin-left: 5px; /* Adjust the margin between buttons for smaller screens */
+      padding: 6px 12px; /* Adjust the button padding */
+      font-size: 12px; /* Decrease font size for smaller screens */
+      
+    }
+  
+  }

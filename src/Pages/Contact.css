@@ -1,0 +1,382 @@
+.main-contact{
+    display: block;
+    box-sizing: border-box;
+
+}
+.space-height{
+    height: 48px;
+    clear: both;
+    box-sizing: border-box;
+    display: block;
+}
+.main-contact{
+    font-weight: 700 !important;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.2;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.container-section-contact{
+    max-width: 1320px;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    display: block;
+    
+    
+}
+.contact-p{
+    background-color: rgba(0, 0, 0, 0.125);
+    opacity: 1;
+    text-align: center !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    padding: 1rem 1rem;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    display: flex;
+    position: relative;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    width: 66.66666667%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+}
+.contact-container-second{
+    max-width: 1320px;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    display: block;
+}
+.second-con-div1{
+    display: flex;
+    flex-wrap: nowrap!important;
+    align-items: normal!important;
+    box-sizing: border-box;
+    gap: 2em;
+    margin-bottom: 1.75em;
+
+}
+.div1-leftdiv-contact{
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 0;
+    margin-bottom: 0 !important;
+    min-width: 0;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    box-sizing: border-box;
+    display: block;
+}
+.image-contact{
+    background-image: url('/public/contact-frame.svg');
+    position: relative;
+    height: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100%;
+    box-sizing: border-box;
+    display: block;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    
+}
+.image-inner-contact{
+    width: 63%;
+    height: 63%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    clip-path: circle(50% at 50% 50%);
+    margin-top: 0;
+    box-sizing: border-box;
+    display: block;
+    overflow-wrap: break-word;
+    word-break: break-word;
+
+}
+.contact-img{
+    height: 100%;
+    width: 100%;
+    /* -o-object-fit: cover; */
+    object-fit: cover;
+    vertical-align: middle;
+    box-sizing: border-box;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    
+}
+.div2-rightdiv-contact{
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 0;
+    min-width: 0;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    display: block;
+    box-sizing: border-box;
+
+}
+.div2-inner-contact{
+    display: flex;
+    flex-wrap: nowrap!important;
+    align-items: normal!important;
+    box-sizing: border-box;
+    gap: 2em;
+    margin-bottom: 1.75em;
+    overflow-wrap: break-word;
+    word-break: break-word;
+
+}
+.inner-col1{
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 0;
+    min-width: 0;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    box-sizing: border-box;
+    display: block;
+}
+.inner-col1-p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    text-align: left;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+.inner-col2{
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 0;
+    min-width: 0;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    box-sizing: border-box;
+    display: block;
+}
+.col2-gap1{
+    gap: 0.25rem !important;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    text-align: left;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.form-main-contact{
+    margin-top: 30px;
+    box-sizing: border-box;
+    display: block;
+    overflow-wrap: break-word;
+    word-break: break-word;
+
+}
+.form-main-contact form{
+    box-sizing: border-box;
+    display: block;
+    margin-top: 0em;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.firstname-div{
+    box-sizing: border-box;
+    display: block;
+    overflow-wrap: break-word;
+    word-break: break-word;
+
+}
+.input{
+    display: block;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    clear: left;
+}
+.input input{
+    box-sizing: border-box;
+    min-height: 27px;
+    width: 100%;
+    max-width: 100%;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    outline: 0;
+    color: #303132;
+    border-radius: 0 !important;
+    padding: 8px 16px !important;
+    border: none;
+    border-bottom: 2px solid #303132;
+    font-weight: 400;
+    margin-bottom: 12px;
+    font-size: 16px;
+    writing-mode: horizontal-tb !important;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+.input textarea{
+    width: 100%;
+    max-width: 100%;
+    resize: vertical;
+    background-color: #fff;
+    font-family: 'Montserrat', serif;
+    outline: 0;
+    box-sizing: border-box;
+    color: #303132;
+    border-radius: 0 !important;
+    padding: 8px 16px !important;
+    border: none;
+    border-bottom: 2px solid #303132;
+    font-weight: 400;
+    margin-bottom: 12px;
+    font-size: 16px;
+    margin: 0;
+    white-space: pre-wrap;
+    word-break: break-word;
+
+
+}
+.submit-bttn-contact{
+    box-sizing: border-box;
+    display: block;
+    overflow-wrap: break-word;
+    word-break: break-word;
+
+}
+.actions-submit{
+    box-sizing: border-box;
+    display: block;
+    overflow-wrap: break-word;
+    word-break: break-word;
+
+}
+.actions-submit input{
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 15px;
+    width: auto;
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow;
+    color: #171715;
+    border-color: #171715;
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+    white-space: pre-wrap;
+    border-radius: 0 !important;
+    padding: 8px 16px !important;
+    max-width: 100%;
+    margin-bottom: 12px;
+    margin: 0;
+    padding-block: 1px;
+    padding-inline: 6px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    float: left;
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 768px){
+    .main-contact h1{
+        font-size: calc(1.375rem + 1.5vw);
+
+    }
+    .div1-leftdiv-contact{
+        flex-basis: 100%!important;
+    }
+    .div2-rightdiv-contact{
+        flex-basis: 100%!important;
+    }
+    .div2-inner-contact{
+        flex-wrap: nowrap;
+        align-items: normal;
+        display: grid;
+    }
+    .second-con-div1{
+        display: grid;
+    }
+    .contact-p{
+        width: 85%;
+    }
+    .input input{
+        padding: 8px 25px !important;
+    }
+    .col2-gap1{
+        font-size: 1rem;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        gap: 0rem;
+    }
+    .inner-col1-p{
+        font-size: 1rem;
+        margin: 0;
+        margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    }
+}

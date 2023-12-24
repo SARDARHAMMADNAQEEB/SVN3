@@ -1,0 +1,57 @@
+/* Add these styles to your CSS file or define inline styles */
+.filterSection {
+    /* display: flex;
+    flex-wrap: wrap; */
+  }
+  
+  .specialtyContainer {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+   
+  }
+  
+  .mainSpecialty {
+    font-weight: bold;
+    margin-bottom: 5px;
+   background-color: rgba(237, 237, 237, 0.872);
+    padding: 5px 10px;
+  }
+  .sectionLinks{
+    margin-top: -32px;
+  }
+  
+  .subSpecialties {
+    /* display: flex;
+    flex-wrap: wrap; */
+  }
+  
+  /* .subSpecialty {
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 5px;
+  } */
+  
+  /* Style for "All" and "None" links */
+  /* .sectionLinks {
+    margin-bottom: 5px;
+  }
+  
+  
+  .sectionLinks a {
+    margin-right: 10px;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .sectionLinks a:hover {
+    color: red;
+  } */
+  
+  @media screen and (min-width: 100px) and (max-width: 768px){
+    .filterSection{
+      display: none;
+    }
+  }

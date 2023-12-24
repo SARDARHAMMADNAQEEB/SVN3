@@ -1,0 +1,93 @@
+.contactAdcon2 {
+  display: grid;
+  width: 100%;
+  height: auto;
+}
+
+.contactAdForm {
+  display: grid;
+  width: 100%;
+  padding: 20px 20px;
+}
+
+.contactAdLabel {
+  display: grid;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 550;
+  letter-spacing: 0.05rem;
+  gap: 20px; /* Adjust this value for equal spacing */
+  padding: 15px 0px;
+  border-bottom: 1px solid #333;
+}
+
+.fn-span {
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.fn-contactAd {
+  padding: 3px 10px;
+  font-family: 'Montserrat', sans-serif;
+  width: 25%;
+}
+.fn-contactAdarea{
+  padding: 3px 10px;
+  font-family: 'Montserrat', sans-serif;
+  width: 40%;
+}
+.AdButtonCon{
+    display: flex;
+    padding: 10px 5px;
+    width: 100%;
+    gap: 10px;
+    margin: 20px 0px;
+}
+.AdButton-save{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0px;
+    padding: 8px 8px;
+    background-color: #33333383;
+    color: #fff;
+    border-radius: 6px;
+    
+    
+}
+.AdButton-save:hover{
+    background-color: #333333b8;
+   
+}
+.AdButton-save-real{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0px;
+    padding: 8px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 6px;
+   
+
+}
+.AdButton-save-real:hover{
+    background-color: #ed6b26;
+    color:#fff;
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+}
+.AdButton-delete{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0px;
+    padding: 8px 8px;
+    background-color: maroon;
+    color: #fff;
+    border-radius: 6px;
+    
+    
+}
+.AdButton-delete:hover{
+    background-color: #333;
+   transition: ease-in-out;
+   transition-duration: 0.4s;
+}

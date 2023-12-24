@@ -1,0 +1,373 @@
+.main-con-h4{
+    display: grid;
+    width: 100%;
+    margin-top: 50px;
+}
+.connector-h4{
+    width: 1px; /* Adjust the width as needed */
+    height: 280vh; /* Set the height to cover the full viewport height */
+    background-color: black; /* Set the line color */
+    position: absolute;
+    left: 50%; /* Position it in the horizontal center of the page */
+    transform: translateX(-50%); 
+}
+.h4-img1{
+    width: 3%;
+/* background-color: red; */
+margin: auto;
+}
+.h4-con1{
+    display: flex;
+    width: 100%;
+    /* background-color: red; */
+    height: auto;
+
+}
+.first-row{
+    display: flex;
+    width: 100%;
+    /* background-color: yellow */
+}
+.sec1-fr{
+    width: 50%;
+}
+.sec2-fr{
+    width: 50%;
+    height: auto;
+    /* background-color: red; */
+    /* margin: auto; */
+}
+.img-sec2{
+    /* width: fit-content; */
+    margin: auto;
+    width: 70%;
+
+}
+.img-sec-2-inner{
+    width: fit-content;
+  
+}
+.img2-sec2{
+    width: fit-content;
+    /* background-color: black; */
+    margin: auto;
+    height: fit-content;
+}
+.img2-sec2-inner{
+    border-radius: 50%;
+    width: 47%;    
+margin-top: -550px;
+margin-left: 195px;
+}
+.sec1-fr{
+    width: 50%;
+    /* background-color: blue; */
+    height: auto;
+    margin-top: 100px;
+}
+.fr-heading{
+   
+     width: fit-content;
+     text-align: right;
+ 
+     margin-left: 32%;
+     font-size: 36px;
+     font-family: 'Times New Roman', Times, serif;
+   
+     letter-spacing: 1px;
+}
+.fr-bttn{
+    width: 30%;
+    font-family: 'Montserrat' , sans-serif;
+    /* background-color: yellow; */
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 17px;
+    /* margin: auto; */
+    margin-top: 30px;
+    float: right;
+    margin-right:155px;
+
+}
+
+.second-row{
+    display: flex;
+    width: 100%;
+}
+.sec1-sr{
+    width: 50%;
+}
+.sec2-sr{
+    width: 50%;
+}
+.left-img-sr{
+    margin-top: 120px;
+      /* background-color: red; */
+      width: 15%;
+}
+.left-img-sr1{
+
+      width: fit-content;
+      margin-left: -30px;
+}
+.content-sr{
+    width: fit-content;
+    margin: auto;
+    margin-top: -12%;
+}
+.content-heading-sr{
+    width: 60%;
+    text-align: left;
+    /* text-align: left; */
+    margin: auto;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Montserrat' , sans-serif; */
+    letter-spacing: 1px;
+}
+.sr-bttn{
+    width: 50%;
+    font-family: 'Montserrat' , sans-serif;
+    /* background-color: yellow; */
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 17px;
+    /* margin: auto; */
+    margin-top: 30px;
+    float: left;
+    margin-left: 150px;
+    /* margin-right:155px; */
+}
+.span-sr{
+    color: #f36c32;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.sr-sec1-p{
+    color: black;
+    font-size: 45px;
+    font-family: 'Montserrat' , sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    margin-top: -320px;
+   
+}
+.third-row{
+    display: flex;
+    width: 100%;
+    margin-top: 120px;
+}
+.tr-heading{
+    width: 70%;
+     text-align: right;
+ 
+     margin-left: 10%;
+     font-size: 36px;
+     font-family: 'Times New Roman', Times, serif;
+   
+     letter-spacing: 1px;
+}
+.forth-row{
+    display: flex;
+    width: 100%;
+}
+.fr-bttn{
+    width: 30%;
+    font-family: 'Montserrat' , sans-serif;
+    /* background-color: yellow; */
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 17px;
+    /* margin: auto; */
+    margin-top: 30px;
+    float: left;
+    margin-left: 150px;
+}
+.Mob-con1{
+    display: none;
+}
+@media screen and (min-width: 1024px) and (max-width: 1400px){
+    .img2-sec2-inner{
+        border-radius: 50%;
+        width: 45%;    
+    margin-top: -370px;
+    margin-left: 145px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .main-con-h4{
+        display: grid;
+    }
+    .connector-h4{
+        display: none;
+    }
+    .h3-img1,.h4-con1{
+        display: none;
+    }
+    .first-row, .second-row, .third-row, .forth-row{
+        display: none;
+    }
+    .Mob-con1{
+        display: grid;
+    }
+    .first-part{
+        display: grid;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .mob-btn-fr{
+        width: 50%;
+    font-family: 'Montserrat' , sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 17px;
+margin-top: 50px;
+ margin: auto;
+    }
+    .mob-para1{
+        margin-bottom: 30px;
+    }
+    /* .img-sec2{
+    
+        margin: auto;
+        width: 50%;
+
+    }
+    .img2-sec2-inner{
+        border-radius: 50%;
+        width: 40%;    
+
+    position: relative;
+margin: auto;
+
+    } */
+
+
+  .container {
+  position: relative;
+  width: 100%; /* Set the width and height according to your requirements */
+  height: auto;
+}
+
+.img-sec2 {
+  position: relative;
+  width: 80%;
+ margin-top: 60px;
+  background-color: #fff; /* Set the background color for the first div */
+}
+
+.img2-sec2 {
+  position: absolute;
+  /* top: 304%;
+  left: -3%; */
+ left: -5%;
+ margin-top: -20px;
+  width: 70%;
+  /* transform: translate(-50%, -50%); Center the second div */
+}
+
+.img-sec-2-inner
+{
+    width: 100%;
+
+    object-fit: cover;
+}
+.img2-sec2-inner {
+  width: 80%;
+
+  object-fit: cover;
+}
+
+
+}
+@media screen and (min-width: 100px) and (max-width: 767px){
+    .main-con-h4{
+        display: grid;
+    }
+    .connector-h4{
+        display: none;
+    }
+    .h3-img1,.h4-con1{
+        display: none;
+    }
+    .first-row, .second-row, .third-row, .forth-row{
+        display: none;
+    }
+    .Mob-con1{
+        display: grid;
+    }
+    .first-part{
+        display: grid;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .mob-btn-fr{
+        width: 70%;
+    font-family: 'Montserrat' , sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+margin-top: 50px;
+ margin: auto;
+    }
+    .mob-para1{
+        margin-bottom: 30px;
+    }
+    /* .img-sec2{
+    
+        margin: auto;
+        width: 50%;
+
+    }
+    .img2-sec2-inner{
+        border-radius: 50%;
+        width: 40%;    
+
+    position: relative;
+margin: auto;
+
+    } */
+
+
+  .container {
+  position: relative;
+  width: 100%; /* Set the width and height according to your requirements */
+  height: auto;
+}
+
+.img-sec2 {
+  position: relative;
+  width: 80%;
+ margin-top: 60px;
+  background-color: #fff; /* Set the background color for the first div */
+}
+
+.img2-sec2 {
+  position: absolute;
+  /* top: 304%;
+  left: -3%; */
+ left: -30%; 
+  margin-top: 120px;
+  width: 70%;
+
+  /* transform: translate(-50%, -50%); Center the second div */
+}
+
+.img-sec-2-inner
+{
+    width: 100%;
+
+    object-fit: cover;
+}
+.img2-sec2-inner {
+  width: 70%;
+
+  object-fit: cover;
+}
+
+}

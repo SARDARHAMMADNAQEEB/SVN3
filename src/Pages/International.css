@@ -1,0 +1,169 @@
+.container-international{
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    max-width: 1320px;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    box-sizing: border-box;
+}
+.article-international{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 83.33333333%;
+    box-sizing: border-box;
+    display: block;
+   
+  
+}
+.international-row-col{
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+    align-items: center !important;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+    /* box-sizing: border-box; */
+    /* width: 100%; */
+}
+.column-international{
+    flex-shrink: 1 !important;
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    /* max-width: 100%; */
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+    box-sizing: border-box;
+    display: block;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+}
+.country-office-con{
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    box-sizing: border-box;
+    display: block;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+
+}
+.country-image-con{
+    position: relative;
+    height: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100%;
+    background-image: url('/public/culture-frame.svg');
+    margin-bottom: 1.5rem !important;
+    box-sizing: border-box;
+    display: block;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+}
+.country-image-inner{
+    width: 75%;
+    height: 75%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    clip-path: circle(50% at 50% 50%);
+    margin-top: 0;
+    box-sizing: border-box;
+    display: block;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+}
+.country-main-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    box-sizing: border-box;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+
+}
+.button-country{
+    text-transform: uppercase !important;
+    text-align: center !important;
+    padding: 0.5rem !important;
+    width: 100% !important;
+   
+    border: 1px solid #dee2e6 !important;
+    border-color: #171715 !important;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    font-size: 1rem;
+    border-radius: 0;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    box-sizing: border-box;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    letter-spacing: 1px;
+}
+
+.end-international{
+    text-align: center !important;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+    box-sizing: border-box;
+    display: block;
+
+}
+.end-international h3{
+    font-weight: 700 !important;
+    padding-bottom: 1rem !important;
+    font-size: 1.85rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.2;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    letter-spacing: 1px;
+}
+.end-international a{
+    text-transform: uppercase !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    border-color: #171715 !important;
+    border: 1px solid !important;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    
+}

@@ -1,0 +1,23 @@
+.main-con-prop{
+    display: grid;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    color: black;
+}
+.con1-prop{
+    width: 100%;
+    display: grid;
+    margin-top: 50px;
+}
+.con1-prop h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 100px;
+    color: black;
+}
+.filters{
+    display: flex;
+}
